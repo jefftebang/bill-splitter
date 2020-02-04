@@ -1,0 +1,15 @@
+.input-sec {
+	height: 70vh;
+	width: 50vw;
+	box-shadow: 9px 10px 24px -7px rgba(0,0,0,0.75);
+	z-index: 1;
+}
+
+.display-sec {
+	height: 70vh;
+	width: 50vw;
+}
+
+form {
+	width: 70%;
+}

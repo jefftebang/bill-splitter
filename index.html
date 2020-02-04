@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bill Splitter</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<!-- Script -->
+	<script type="text/javascript" src="assets/scripts/bill-splitter.js" defer></script>
+	<!-- Bootswatch (Lumen Theme) -->
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/darkly/bootstrap.css">
+</head>
+<body>
+	<!-- home page -->
+	<div id="home-page">
+		<div class="cont-con d-flex justify-content-center align-items-center flex-column vh-100">
+			<div class="title">
+				<h1>Bill Splitter</h1>
+			</div>
+			<div class="cont d-flex justify-content-center align-items-center">
+				<div class="input-sec form-group bg-success d-flex justify-content-center align-items-center">
+					<form class="d-flex align-items-center flex-column">
+						<label for="amount">Total Bill: <span class="amount"></span></label>
+						<input type="number" name="amount" class="form-control">
+						<label for="number">No. of Friends: <span class="amount"></span></label>
+						<input type="number" name="number" class="form-control">
+						<button type="button" class="btn btn-primary" id="split-btn">Split Bill</button>
+					</form>
+				</div>
+				<div class="display-sec bg-warning d-flex justify-content-center align-items-center">
+					<div class="d-none">
+						<h3>Your share is</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
