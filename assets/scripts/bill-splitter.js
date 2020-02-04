@@ -7,6 +7,10 @@ let split = {
 // home-page
 let homePage = document.getElementById('home-page');
 
+
+bill();
+
+
 function bill(){
-	console.log(homePage.firstElementChild.lastElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild = split.bill);
+	homePage.firstElementChild.lastElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild = split.bill;
 }
