@@ -1,16 +1,22 @@
-let split = {
-	bill: 0,
+const  btnSplit = document.getElementById('split-btn');
+const quotnt = document.getElementById('quotient');
+
+let bill = {
+	amount: 0,
 	friends: 0,
-	share: 0,
 }
 
-// home-page
-let homePage = document.getElementById('home-page');
+
+btnSplit.addEventListener('click', function(){
+	bill.amount = btnSplit.previousElementSibling.previousElementSibling.previousElementSibling.value;
+
+	bill.friends = btnSplit.previousElementSibling.value;
+
+	totalBill = parseInt(bill.amount);
+	split = parseInt(bill.friends);
+	
+	division = totalBill/split;
+	quotnt.textContent = division;
+})	
 
 
-bill();
-
-
-function bill(){
-	homePage.firstElementChild.lastElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild = split.bill;
-}

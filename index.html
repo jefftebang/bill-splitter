@@ -20,16 +20,17 @@
 			<div class="cont d-flex justify-content-center align-items-center">
 				<div class="input-sec form-group bg-success d-flex justify-content-center align-items-center">
 					<form class="d-flex align-items-center flex-column">
-						<label for="amount">Total Bill: <span class="amount"></span></label>
-						<input type="number" name="amount" class="form-control">
-						<label for="number">No. of Friends: <span class="amount"></span></label>
-						<input type="number" name="number" class="form-control">
-						<button type="button" class="btn btn-primary" id="split-btn">Split Bill</button>
+						<label for="amount">Magkano babayaran nyo?</label>
+						<input type="number" name="amount" class="form-control text-center">
+						<label for="number">Ilan kayo?</label>
+						<input type="number" name="number" class="form-control text-center">
+						<button type="button" class="btn btn-primary" id="split-btn">Hatiin ang babayaran</button>
 					</form>
 				</div>
 				<div class="display-sec bg-warning d-flex justify-content-center align-items-center">
-					<div class="d-none">
-						<h3>Your share is</h3>
+					<div>
+						<h3>Ambagan kayo ng tag</h3>
+						<h1 class="text-center" id="quotient"></h1>
 					</div>
 				</div>
 			</div>
